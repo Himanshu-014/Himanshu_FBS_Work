@@ -1,0 +1,12 @@
+#include <stdio.h>
+#define PI 3.14159 
+
+int main() {
+    float radius = 20 , area;
+
+    area = PI * radius * radius;
+
+    printf("The area of the circle with radius %f is: %f\n", radius, area);
+
+    return 0;
+}
